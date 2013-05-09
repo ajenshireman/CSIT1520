@@ -9,7 +9,7 @@ Fields
 array
 
 Constructors
-FloatArray()				Contsructs a new FloatArray with an initial size of 0
+FloatArray()  Contsructs a new FloatArray with an initial size of 0
 FloatArray(int initialSize)	Contsructs a new FloatArray with the specified initial size
 FloatArray(float[] array)	Contsructs a new FloatArray from an existing array
 
