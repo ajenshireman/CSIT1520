@@ -1,0 +1,30 @@
+primativeArray
+Author: Ajen Shireman
+
+Collection of dynamicaly-sized arrays for use with java primative types.
+
+Constructors and Method details shown for FloatArray.
+
+Fields
+array
+
+Constructors
+FloatArray()				Contsructs a new FloatArray with an initial size of 0
+FloatArray(int initialSize)	Contsructs a new FloatArray with the specified initial size
+FloatArray(float[] array)	Contsructs a new FloatArray from an existing array
+
+Methods
+void	add(float newElement)	Appends a new element to the end of the FloatArray
+void	add(float newElement, int index)	Inserts a new element into the FloatArray at the specified position
+void	add(float[] newElements)	Appends a new array of elements to the end of the FloatArray
+void	add(float[] newElements, int index)	Inserts a new array of elements into the FloatArray at the specified position
+void	clear()	Removes all elements from the FloatArray
+FloatArray	copy()	Returns a copy of the FloatArray
+void	ensureCapacity(int minSize)	Increases the FloatArray's size to the specified size if needed
+boolean	equals(FloatArray fArray)	Checks if two FloatArrays are equal
+float	get(int index)	Returns the element at the specified index
+void	remove(int index)	Removes the element at the specified index
+void	remove(int index1, int index2)	Removes all elements between two specified indices, inclusive
+void	set(int index, float value)	Replaces the value at the specified index with the specified value
+int	size()	Returns the number of elements in the FloatArray
+float[]	toArray()	Returns a copy of the FloatArray's array
